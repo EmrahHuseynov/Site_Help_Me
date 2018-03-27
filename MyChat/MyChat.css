@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+.chat{
+    width: 70%;
+    height: 500px;
+    background: green;
+    margin: 20px auto;
+    border-radius: 40px;
+    position: relative;
+    
+
+}
+.chathead{
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 70px;
+    background: green;
+    border:1px solid white;
+}
+.chathead .fa-commenting{
+    position: absolute;
+    top:2%;
+    font-size: 3em;
+    color: white;
+    left: 4%;
+}
+.chathead h1{
+    color: white;
+    position: absolute;
+    left: 12%;
+    font-family:monospace;
+    font-size: 2.5em;
+}
+.chathead .fa-close{
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 3.5%;
+    color: white;
+}
+.chathead .fa-trash{
+    position:absolute;
+    top:3.5%;
+    cursor: pointer;
+    right: 8%;
+    font-size:2em;
+    color: white;
+    
+}
+.chatbody{
+    height: 430px;
+    overflow-y: scroll;
+}
+.callcenter{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+
+
+}
+.callcenter img{
+    margin: 2%;
+    border-radius: 20px;
+    float: left;
+}
+.callcenter h1{
+    float: left;
+    font-size: 1.3em;
+    padding-top: 30px;
+    color: white;
+    font-family:monospace;
+
+}
+.callcenter .fa-circle-thin{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    font-size: 20px;
+    background: red;
+    border-radius: 100%;
+}
+   .write{
+    width: 70%;
+    height: 70px;
+    background: red;
+    margin: 0 auto;
+    border-radius: 20px;
+       position: relative;
+
+}
+.write .type{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color:green;
+    float: left;
+    padding: 10px;
+    font-size: 2em;
+    color: white;
+    outline: none;
+}
+.write .fa-send{
+    position: absolute;
+    right: 2%;
+    z-index: 1;
+    top:40%;
+    font-size: 2em;
+    color: white;
+ }
+.livechat{
+    display: none;
+}
+
+.chatpanel{
+    cursor: pointer;
+    background: green;
+    position: fixed;
+    right: 2%;
+    bottom: 0%;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+.chatpanel h1{
+    font-size: 1.3em;
+    color: white;
+    float: left;
+    padding: 0 10px;
+}
+.chatpanel .fa-commenting{
+    float: left;
+    padding: 10px;
+    color: white;
+    font-size:1.3em;
+}
+.chatpanel .fa-arrows-v{
+    font-size: 1.4em;
+    color: white;
+    padding: 20px 20px 10px 0;
+    cursor: pointer;
+    transform: rotate(56deg);
+    position: absolute;
+}
+.boyside{
+    width: 100%;
+    height: 100px;
+   border: 1px solid #ccc;
+ 
+
+}
+.boyimg{
+    margin:2%;
+    border-radius: 20px;
+    float:right;
+    width: 90px;
+    height: 60px;
+    background-image: url(boy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.boyside p{
+    float: right;
+    font-size: 1.5em;
+    color: white;
+    
+}
+.girlside{
+    width: 100%;
+    height: 100px; 
+   border: 1px solid #ccc;
+
+}
+.girlimg{
+    margin:2%;
+    border-radius: 20px;
+    float:left;
+    width: 90px;
+    height: 60px;
+    background-image: url(callcenter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.girlside p{
+    float: left;
+    font-size: 1.5em;
+    color: white;
+}
+.mesajlar{
+  
+}
+
+.selected{
+    background: #eee;
+}
